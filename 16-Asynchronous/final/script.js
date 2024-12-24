@@ -6,7 +6,7 @@ const countriesContainer = document.querySelector('.countries');
 const renderCountry = function (data, className = '') {
   const html = `
   <article class="country ${className}">
-    <img class="country__img" src="${data.flag}" />
+    <img class="country__img" src="https://flagcdn.com/w320/pt.png" />
     <div class="country__data">
       <h3 class="country__name">${data.name}</h3>
       <h4 class="country__region">${data.region}</h4>
